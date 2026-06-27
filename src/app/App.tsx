@@ -213,10 +213,10 @@ function PageHome({ onNavigate }: { onNavigate: (p: Page) => void }) {
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] rounded-full bg-[#85E040] opacity-[0.07] blur-[120px]" />
         </div>
         <div className="relative max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-card text-xs text-muted-foreground mb-6 font-['Outfit']">
+          {/* <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-card text-xs text-muted-foreground mb-6 font-['Outfit']">
             <Sparkles size={12} className="text-primary" />
             2025 신년 특별 이벤트 진행 중
-          </div>
+          </div> */}
           <h1 className="font-['Outfit'] text-4xl md:text-6xl font-800 leading-[1.1] text-foreground mb-6">
             당신의 몸에 맞는<br />
             <span className="text-primary">맞춤 식단</span>을 시작하세요
