@@ -981,7 +981,6 @@ export default function App() {
               <Zap size={14} className="text-primary-foreground" />
             </div>
             <span className="font-['Outfit'] text-base font-700 text-foreground">FitDiet</span>
-            <span className="font-['Noto_Sans_KR'] text-xs text-muted-foreground hidden sm:inline">맞춤 헬스케어</span>
           </div>
           <button
             onClick={() => window.open(NAVER_FORM_URL, "_blank")}
