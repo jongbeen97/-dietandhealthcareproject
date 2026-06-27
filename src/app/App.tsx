@@ -146,7 +146,7 @@ const BMI_GRADES = [
 const NOTICES = [
   { id: 1, date: "2025-01-15", title: "2025년 신규 회원 모집 이벤트", badge: "이벤트", content: "새해를 맞아 1:1 인바디 분석 무료 체험 이벤트를 진행합니다. 선착순 20명 한정이니 서둘러 신청하세요!" },
   { id: 2, date: "2025-01-10", title: "겨울방학 집중 8주 프로그램 오픈", badge: "공지", content: "방학 동안 집중적으로 몸을 만들 수 있는 8주 특별 프로그램이 오픈되었습니다. 매주 1:1 피드백 세션 포함." },
-  { id: 3, date: "2025-01-05", title: "대학생 맞춤 식단 가이드북 무료 배포", badge: "자료", content: "전문 영양사가 작성한 대학생 맞춤 식단 가이드북을 신청자에게 무료로 배포합니다. 신청서 제출 후 수령." },
+  { id: 3, date: "2025-01-05", title: " 맞춤 식단 가이드북 무료 배포", badge: "자료", content: "전문 영양사가 작성한 맞춤 식단 가이드북을 신청자에게 무료로 배포합니다. 신청서 제출 후 수령." },
   { id: 4, date: "2024-12-20", title: "홈 트레이닝 루틴 업데이트", badge: "업데이트", content: "기구 없이 가능한 운동 30종이 새로 추가되었어요. 기숙사나 좁은 방에서도 충분히 활용할 수 있습니다." },
   { id: 5, date: "2024-12-10", title: "12월 체험단 후기 공개", badge: "후기", content: "지난 12월 체험단 10명의 생생한 변화 후기가 공개되었습니다. 평균 체중 -2.8kg, 체지방률 -1.5% 달성!" },
 ];
@@ -222,8 +222,8 @@ function PageHome({ onNavigate }: { onNavigate: (p: Page) => void }) {
             <span className="text-primary">맞춤 식단</span>을 시작하세요
           </h1>
           <p className="font-['Noto_Sans_KR'] text-base md:text-lg text-muted-foreground leading-relaxed mb-10 max-w-xl mx-auto">
-            1:1 인바디 분석부터 맞춤 식단 설계, 주간 피드백까지.<br />
-            대학생을 위한 실전 헬스케어 프로그램입니다.
+            1:1 인바디 분석부터 맞춤 식단 설계, 주간 피드백까지 도와드리는<br />
+             실전 헬스케어 프로그램입니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <button
@@ -314,7 +314,7 @@ function PageHome({ onNavigate }: { onNavigate: (p: Page) => void }) {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {[
-              { icon: "🎓", title: "식단 관리가 어려운 대학생", desc: "기숙사·학교 식당 환경에서도 실천 가능한 현실적인 식단을 제공해요." },
+              { icon: "🎓", title: "식단 관리가 어려운 분", desc: "기숙사·학교 식당 환경에서도 실천 가능한 현실적인 식단을 제공해요." },
               { icon: "⚖️", title: "체중 감량이 목표인 분", desc: "단순 칼로리 제한이 아닌 체성분 개선을 통한 건강한 체중 감량." },
               { icon: "💪", title: "근육량을 늘리고 싶은 분", desc: "운동과 식단을 연계하여 효율적인 근성장을 도와드려요." },
               { icon: "📊", title: "내 몸 상태가 궁금한 분", desc: "인바디 분석으로 현재 체성분 상태를 정확하게 파악할 수 있어요." },
