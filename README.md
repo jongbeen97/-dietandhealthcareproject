@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Personalized Diet and Healthcare Platform
 
@@ -9,3 +10,6 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# -dietandhealthcareproject
+>>>>>>> af7a69bbab929c968797a2c38efd9c23b5ce396c
