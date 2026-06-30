@@ -38,7 +38,7 @@ interface QuizAnswer {
 }
 
 // ─── Static Data ──────────────────────────────────────────────────────────────
-const NAVER_FORM_URL = "https://naver.me/G1mIEnPV";
+const NAVER_FORM_URL = "https://naver.me/5l2VUHzN";
 
 const QUIZ_QUESTIONS = [
   {
